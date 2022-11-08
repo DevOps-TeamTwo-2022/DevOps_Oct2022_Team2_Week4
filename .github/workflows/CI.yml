@@ -7,8 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    step:
-    - uses: actions/steup-python@v2
+    steps:
+    - uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: Install Libraries
