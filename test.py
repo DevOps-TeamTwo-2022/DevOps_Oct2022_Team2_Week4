@@ -1,6 +1,11 @@
 import pytest 
-import helloworld
+from helloworld import helloworld
 
 def test_testOne():
-  result = helloworld()
-  assert result == "Hello Test! Welcome to Hello World File!"
+  theInput = "Test"
+  result = helloworld(theInput)
+  
+  assert len(result) > 10 or len(result) == 0, "Input string too long!"
+  #assert len(result) < 10 or len(result) == 0, "Input string too long!"
+    
+test_testOne()  
