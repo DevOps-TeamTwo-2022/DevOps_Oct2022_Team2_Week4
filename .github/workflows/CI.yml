@@ -2,7 +2,7 @@ name: CI for Hello World
 
 on:
   push:
-    branches: [main],[dansBranch]
+    branches: [main,dansBranch]
     
 jobs:
   build:
