@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        python-version: 3.11
+        python-version: 3.8
     - name: Install Libraries
       run: |
         pip install flake8 pytest pytest-cov
