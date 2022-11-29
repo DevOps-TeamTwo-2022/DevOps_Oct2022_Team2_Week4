@@ -2,7 +2,9 @@ name: CD for delivery
 
 on:
   pull_request:
-    branches: [dansBranch]
+    branches: [main,dansBranch]
+  push:
+    branches: [main,dansBranch]
     
 jobs:
   build:
