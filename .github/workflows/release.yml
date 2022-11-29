@@ -58,7 +58,7 @@ jobs:
     - name: download remote information
       uses: actions/download-artifact@v2
       with:
-        name: assetdocuments
+        name: assetDocuments
 
     - name: create release
       id: create-new-release
